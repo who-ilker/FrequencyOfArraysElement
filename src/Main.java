@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args){
 
-        int[] array = new int[] {10, 20, 20, 0, 10, 10, 20, 5, 20, 0, 0};
+        int[] array = new int[] {10, 20, 20, 0, 10, 10, 20, 5, 20, 0, 0, -11};
         int[][] num_frequencyTable = new int[array.length][2];
         initializeFrequencyTable(num_frequencyTable, -1);
 
